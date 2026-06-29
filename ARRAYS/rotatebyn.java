@@ -44,5 +44,18 @@ class rotatebyn {
             }
             System.out.println();
         }
+          for (int j = 0; j < arr[0].length; j++) {
+            for (int i = arr.length - 1; i >= 0; i--) {
+                System.out.print(arr[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
+        for(int q=0;q<arr.length;q++){
+            for(int j=q;j<arr[q].length;j++){
+                System.out.println(arr[q][j]+"\t");
+            }
+        }
+
     }
 }

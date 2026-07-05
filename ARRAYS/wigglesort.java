@@ -1,7 +1,6 @@
-import java.util.*;
+    import java.util.*;
 
-public class wigglesort
- {
+public class Wigglesort {
     public static void main(String[] args) {
 
         int arr[] = {3, 5, 2, 1, 6, 4};
@@ -26,3 +25,4 @@ public class wigglesort
         System.out.println(Arrays.toString(arr));
     }
 }
+    

@@ -26,7 +26,7 @@ public class InsertInMiddle {
         // New node to insert
         Node newNode = new Node(25);
 
-        // Find the node after which we want to insert
+        
         Node temp = head;
 
         while (temp.data != 20) {
